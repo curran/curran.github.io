@@ -29,6 +29,7 @@
 /* Center the navigation bar.  */ 
 #navbar {
   text-align: center;
+  padding-bottom: 8px;
 }
 
 /* Style the navigation bar links.  */ 
@@ -48,4 +49,9 @@
 /* Give the user an affordance that each link is clickable. */
 #navbar a:hover {
   border-color: black;
+}
+
+/* Style the active page link. */
+#navbar a.active{
+  border-color: gray;
 }
