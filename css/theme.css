@@ -1,0 +1,51 @@
+/*
+ * The main CSS stylesheet for the site.
+ * Curran Kelleher October 2014
+ */
+
+/* Use Google Fonts. */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+/* Style the overall page container. */
+#container {
+  margin: 40px 100px 0px 100px;
+}
+
+/* Style the title at the top of the page. */
+#page-title {
+  font-size: 3em;
+  font-family: 'Droid Serif', serif;
+}
+
+/* Style the horizontal rule under the title. */
+#page-title-hr {
+  margin: -8px 0px 8px 0px;
+  border: none;
+  height: 3px;
+  background-color: #333;
+}
+
+/* Center the navigation bar.  */ 
+#navbar {
+  text-align: center;
+}
+
+/* Style the navigation bar links.  */ 
+#navbar a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 8px 0px 8px;
+  color: black;
+  text-decoration: none;
+
+  border: 2px solid;
+  border-color: white;
+  border-radius: 20px;
+}
+
+/* Give the user an affordance that each link is clickable. */
+#navbar a:hover {
+  border-color: black;
+}
